@@ -10,16 +10,20 @@ I am not a real programmer, so be ware of potential mistakes.
 
 ## Usage
 Can't agree on which movies to watch?
+```bash
 $ cargo run
 Enter the choices (comma separated):
 Moana, Mario, Mufasa, Sonic
 
 Mario was chosen.
-
+```
 
 Can't agree on where to eat?
+```bash
 $ cargo run
 Enter the choices (comma separated):
 McDonald, Panera, Domino, Popeye
 
 Panera was chosen.
+```
+
