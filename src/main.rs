@@ -11,7 +11,7 @@ fn main() {
 
     let choices: Vec<&str> = choices.split(",").collect();
     match choices.choose(&mut rand::rng()) {
-        Some(i) => println!("{}", i.trim()),
-        None    => println!("Nothing!")
+        Some(i) => println!("\n{} was chosen.", i.trim()),
+        None    => println!("Nothing was chosen!")
     }
 }
